@@ -167,12 +167,14 @@ int main() {
     char pick;
     int day[7]={7,6,5,4,3,2,1};
     do{
+    	do{
             choices();
             printf("\n\nInput the feature you want to see: ");
             scanf("%d",&choice);
             system("cls");
             struct Task tasks[num_tasks];
 			alloptions(choice,tasks,num_tasks,day);
+		} while (choice>3 || choice<1);
 			printf("\n\ngo back to menu?(y/n): ");
    			scanf("%s",&pick);
     system("cls");
@@ -180,3 +182,4 @@ int main() {
 	printf("Goodbye! Thank you for using SOS!");
     return 0;
 }
+
