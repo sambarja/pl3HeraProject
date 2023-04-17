@@ -16,8 +16,8 @@ struct Task {
 void choices(void)
 {
 
-    printf("SOS: Student Organizer Softwate\n");
-    printf("\n1. Priorizitation List");
+    printf("SOS: Student Organizer Software\n");
+    printf("\n1. Prioritization List");
     printf("\n2. Due-date weekly calendar");
     printf("\n3. Exit");
 
@@ -173,9 +173,9 @@ int main() {
             printf("\n\nInput the feature you want to see: ");
             scanf("%d",&choice);
             system("cls");
-            struct Task tasks[num_tasks];
-			alloptions(choice,tasks,num_tasks,day);
 		} while (choice>3 || choice<1);
+	                struct Task tasks[num_tasks];
+			alloptions(choice,tasks,num_tasks,day);
 			printf("\n\ngo back to menu?(y/n): ");
    			scanf("%s",&pick);
     system("cls");
