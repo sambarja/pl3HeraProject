@@ -8,3 +8,5 @@ Features:
 - Feature asking what is their tasks
 - A productivity list ordered on what task to prioritize
 - A weekly calendar indicating the deadlines of the tasks
+
+video presentation: https://www.youtube.com/watch?v=R6uI2EhJ7ew
